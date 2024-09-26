@@ -1,0 +1,71 @@
+name: flutter_template
+description: "A Flutter temaplte for Dream AI Coder."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  bs58: 1.0.2
+  collection: ^1.17.1
+  connectivity_plus: ^6.0.5
+  dio: ^5.4.0
+  dio_smart_retry: ^6.0.0
+  easy_localization: ^3.0.1
+  flutter_modular: ^6.3.4
+  flutter_screenutil: ^5.7.0
+  flutter_secure_storage: ^9.2.2
+  hex: 0.2.0
+  json_serializable: ^6.8.0
+  mockito: ^5.4.4
+  qr_flutter: ^4.1.0
+  rxdart: 0.27.7
+  tap_debouncer: ^2.2.0
+  url_launcher: ^6.1.11
+  web: ^1.0.0
+
+  ai_model_land:
+    git:
+      url: https://github.com/vlmoon99/ai_model_land.git
+      ref: ai_project
+
+  flutterchain:
+    git:
+      url: https://github.com/vlmoon99/flutterchain.git
+      ref: main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/translations/
+    - assets/fonts/
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/manrope/static/Manrope-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/manrope/static/Manrope-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/manrope/static/Manrope-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/manrope/static/Manrope-Light.ttf
+          weight: 300
+        - asset: assets/fonts/manrope/static/Manrope-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/manrope/static/Manrope-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/manrope/static/Manrope-SemiBold.ttf
+          weight: 600
