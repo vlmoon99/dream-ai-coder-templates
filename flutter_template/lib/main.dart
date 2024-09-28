@@ -64,11 +64,6 @@ class AppWidget extends StatelessWidget {
       splitScreenMode: true,
     );
 
-    FlutterChainLibrary.defaultInstance()
-        .createWalletWithGeneratedMnemonic(
-            walletName: "TestWallet${math.Random.secure().nextInt(10000)}")
-        .then((value) => log(value.mnemonic));
-
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       title: 'App name',
