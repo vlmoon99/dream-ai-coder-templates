@@ -1,10 +1,8 @@
 import 'dart:async';
 import 'dart:developer';
-import 'dart:math' as math;
 import 'package:flutter/foundation.dart';
 import 'package:flutter_template/assets/localization/localizations_strings.dart';
 import 'package:flutter_template/modules/app_module.dart';
-import 'package:flutterchain/flutterchain_lib.dart';
 import 'package:flutterchain/flutterchain_lib/services/core/lib_initialization_service.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
